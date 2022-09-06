@@ -1,70 +1,42 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Custom Hook
+Create a custom hook that allows you to fetch the `movies` from the `Lord of the rings api`.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Brief
+You're creating a fan review website for the Lord of the rings and need movie details. To do 
+that, you need to make requests to the Api on multiple pages, so having a reusable hook would 
+be helpful. your assignment is to create a custom hook that you can use on any page to request 
+movie info from the Api.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## To Do
+* Create a new hook
+* Create a new request
+* Create request states
+* Publish to npm
+* Create an example
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Level 1
+To build a custom hook, the first thing you need is a file that exports a custom function. you 
+can do this manually or you can start entire project automatically by using the use custom hook 
+starter template.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+With the skeleton of a hook, the main purpose will be to fetch data from the Api. set up a request 
+mechanism using the browser fetch Api or your favourite request library.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Level 2
+Part of a good request Api is the ability to understand where the request is at during each part of 
+its lifecycle. This includes stages like ". loading, success, and failed.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Using React state, configure a variable that you can return from the custom hook to let the component 
+know what stage the request is at in its lifecycle.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Level 3
+Ultimately a custom hook is created to be used. publish the new hook to npm(`npmjs.com`) and set a new 
+project using the custom hook package. for an advanced feature, add the ability for people to review 
+each movie!.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
